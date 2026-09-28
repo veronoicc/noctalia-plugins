@@ -1,7 +1,7 @@
 id = "veronoicc/gaze"
 name = "Gaze Face Auth"
 version = "1.0.0"
-plugin_api = 1
+plugin_api = 3
 author = "veronoicc"
 license = "GPL-3.0"
 dependencies = []
