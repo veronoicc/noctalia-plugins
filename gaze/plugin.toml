@@ -1,0 +1,33 @@
+id = "veronoicc/gaze"
+name = "Gaze Face Auth"
+version = "1.0.0"
+plugin_api = 1
+author = "veronoicc"
+license = "GPL-3.0"
+description = "Facial authentication indicator, quick auth, and Surface Pro 8 IR camera integration with Gaze."
+tags = ["auth", "security", "biometrics", "surface", "camera"]
+
+[[service]]
+id = "gaze_service"
+name = "Gaze Daemon Service"
+entry = "service.luau"
+
+[[widget]]
+id = "gaze_widget"
+name = "Gaze Status Bar Widget"
+entry = "widget.luau"
+
+[[shortcut]]
+id = "gaze_shortcut"
+name = "Gaze Quick Unlock"
+entry = "shortcut.luau"
+
+[[panel]]
+id = "gaze_panel"
+name = "Gaze Control Center"
+entry = "panel.luau"
+
+[[desktop_widget]]
+id = "gaze_lockscreen"
+name = "Gaze Lockscreen Badge"
+entry = "desktop_widget.luau"
