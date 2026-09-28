@@ -1,10 +1,17 @@
-# Noctalia Plugin Source Catalog
+# Noctalia plugins catalog.
+# Index of every plugin this source ships.
 
 [[plugin]]
 id = "veronoicc/gaze"
-path = "gaze"
 name = "Gaze Face Auth"
 version = "1.0.0"
+updated_at = 1790625268
+added_at = 1790625268
 author = "veronoicc"
+license = "GPL-3.0"
+icon = "camera-photo"
 description = "Facial authentication indicator, quick auth, and Surface Pro 8 IR camera integration with Gaze."
+deprecated = false
+plugin_api = 1
 tags = ["auth", "security", "biometrics", "surface", "camera"]
+dependencies = []

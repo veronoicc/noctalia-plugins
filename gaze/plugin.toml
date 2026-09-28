@@ -4,6 +4,9 @@ version = "1.0.0"
 plugin_api = 1
 author = "veronoicc"
 license = "GPL-3.0"
+dependencies = []
+icon = "camera-photo"
+deprecated = false
 description = "Facial authentication indicator, quick auth, and Surface Pro 8 IR camera integration with Gaze."
 tags = ["auth", "security", "biometrics", "surface", "camera"]
 
